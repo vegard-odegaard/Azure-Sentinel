@@ -6,4 +6,5 @@
     location: 'West Europe'
     templateLocation: 'URL of the file'
     csmFileLink: 'https://github.com/Azure/azure-quickstart-templates/blob/master/201-vm-winrm-windows/azuredeploy.json'
-    deploymentMode: 'Incremental'
+    csmParametersFileLink: 'https://github.com/Azure/azure-quickstart-templates/blob/master/201-vm-winrm-windows/azuredeploy.parameters.json'
+    deploymentMode: 'Validation'
