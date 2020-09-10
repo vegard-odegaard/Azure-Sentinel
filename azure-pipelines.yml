@@ -5,5 +5,5 @@
     subscriptionId: '7c2c7018-2d56-4283-8ba6-8ddd858b6767'
     location: 'West Europe'
     templateLocation: 'URL of the file'
-    csmFileLink: 'https://github.com/vegard-odegaard/Azure-Sentinel/blob/master/Playbooks/Block-AADUser/azuredeploy.json'
-    deploymentMode: 'Validation'
+    csmFileLink: 'https://github.com/Azure/azure-quickstart-templates/blob/master/201-vm-winrm-windows/azuredeploy.json'
+    deploymentMode: 'Incremental'
