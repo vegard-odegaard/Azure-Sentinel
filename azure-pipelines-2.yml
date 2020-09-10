@@ -1,1 +1,9 @@
-#test
+- task: AzureResourceManagerTemplateDeployment@3
+  inputs:
+    deploymentScope: 'Subscription'
+    azureResourceManagerConnection: 'ncopmgmt-h-subs-shared(7c2c7018-2d56-4283-8ba6-8ddd858b6767)'
+    subscriptionId: '7c2c7018-2d56-4283-8ba6-8ddd858b6767'
+    location: 'West Europe'
+    templateLocation: 'URL of the file'
+    csmFileLink: 'https://github.com/vegard-odegaard/Azure-Sentinel/blob/master/Playbooks/Reset-AADUserPassword/azuredeploy.json'
+    deploymentMode: 'Incremental'
